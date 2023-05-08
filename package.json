@@ -1,0 +1,32 @@
+{
+  "name": "cypress-integration",
+  "version": "1.0.0",
+  "description": "GetTestMail SDK integration with the Cypress E2E testing framework",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GetTestMail/cypress-integration.git"
+  },
+  "keywords": [
+    "cypress",
+    "e2e-testing",
+    "email-testing"
+  ],
+  "author": "GetTestMail",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GetTestMail/cypress-integration/issues"
+  },
+  "homepage": "https://github.com/GetTestMail/cypress-integration#readme",
+  "devDependencies": {
+    "cypress": "12.11.0",
+    "typescript": "5.0.4"
+  },
+  "dependencies": {
+    "@gettestmail/typescript-sdk": "1.1.1"
+  }
+}
